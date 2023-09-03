@@ -23,7 +23,7 @@ const App = () => {
         <h1> Loading...</h1>
       ) : (
         <div>
-          <h1>RoboFriends</h1>
+          <h1>!RoboFriends</h1>
           <Search onSearchChanges={onSeachChanges} />
           <Scroll>
             <CardList robots={filterRobots} />
